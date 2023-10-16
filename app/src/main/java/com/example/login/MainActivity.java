@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         B1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // For Toast MSG
                 Toast.makeText(getApplicationContext(),"Login Button Selected.",
-
                         Toast.LENGTH_LONG).show();
                 String textN=ET1.getText().toString();
                 String textP=ET2.getText().toString();
